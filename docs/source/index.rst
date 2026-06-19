@@ -35,6 +35,7 @@ Main objectives:
    :maxdepth: 1
 
    SE-Robotics Summer School 2025 <2025/index>
+   SE-Robotics Summer School 2026 <2026/index>
 
 .. SE-Robotics Summer School 20XX <20XX/index>
 
