@@ -10,6 +10,8 @@ ACM SIGSOFT Summer School for Software Engineering in Robotics 20XX
    :caption: Program
    :maxdepth: 3
 
-   day1/index	
+   day1/index
+   day2/index
+   day3/index
    day4/index
    day5/index

@@ -1,5 +1,5 @@
 ===========================================================
-Day 3 -- July 2nd: Robot software architecting and modeling
+Day 5 -- July 2nd: Hands-On
 ===========================================================
 
 Lectures

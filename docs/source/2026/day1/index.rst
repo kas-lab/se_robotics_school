@@ -7,6 +7,9 @@ Lectures
 
 .. toctree::
    :maxdepth: 2
+   school-intro
+   an-jacobs-shirley-elprama
+   patrizio-pelliccione
 
 
 Practical Sessions
