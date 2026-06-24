@@ -1,5 +1,5 @@
 ==========================================================
-Day 1 -- June 30th: Building and Deploying Robotic Systems
+Day 1 -- June 29th: Robots in Society
 ==========================================================
 
 Lectures
@@ -19,4 +19,3 @@ Practical Sessions
    :maxdepth: 2
 
    mirte-master-setup
-   mirte-master-ros2

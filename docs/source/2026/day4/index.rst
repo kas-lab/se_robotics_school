@@ -17,5 +17,3 @@ Practical Sessions
 
 .. toctree::
    :maxdepth: 2
-
-   coresense-hands-on
