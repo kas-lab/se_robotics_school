@@ -2,6 +2,7 @@
 Intro to ROS 2
 ****************************************
    *09:00 - 10:30 / 11:00 - 12:00* -- Jose Miguel Guerrero, Francisco Martin Rico
+
 .. TODO: Adjust course description, does it really involve hands-on activities?
 
 **Lecture description:**
@@ -9,8 +10,10 @@ This course introduces students to the fundamentals of ROS 2, including its arch
 Through hands-on activities, students will develop a ROS 2-based perception-decision-action loop that enables robots to detect obstacles and respond autonomously.
 The course emphasizes practical experience in building autonomous robotic behaviors using modern, modular software tools.
 
-Session materials:
- - :download:`Slides: Intro to ROS 2 & Robot Programmimg <slides/ros2_introduction_JMGuerrero.pdf>`
+**Session materials:**
+
+.. TODO: Add slides once received.
+   - :download:`Slides: Intro to ROS 2 & Robot Programmimg <slides/ros2_introduction_JMGuerrero.pdf>`
 
 Preparation
 ===========

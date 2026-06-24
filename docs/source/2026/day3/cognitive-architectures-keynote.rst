@@ -1,6 +1,6 @@
-**************************************************************
-**Keynote:** Cognitive Architectures for Robust and Reliable Robotics
-**************************************************************
+***********************************************************************
+Cognitive Architectures for Robust and Reliable Robotics
+***********************************************************************
    *13:15 - 14:00* -- Esther Aguado
 
 .. TODO: Update keynote description once received.
@@ -18,7 +18,9 @@ This perspective aligns closely with the goals of the CoreSense project, which a
 The talk will highlight ongoing research efforts that support the vision of building autonomous systems that are resilient, transparent, and trustworthy.
 
 **Session materials:**
- - :download:`Slides: Cognitive Architectures for Robust and Reliable Robotics <slides/Keynote_CognitiveArchitectures_EAguado.pdf>`
+
+.. TODO: Add slides once received.
+   - :download:`Slides: Cognitive Architectures for Robust and Reliable Robotics <slides/Keynote_CognitiveArchitectures_EAguado.pdf>`
 
 **Bio. Esther Aguado** holds a PhD in Automation and Robotics from the Polytechnic University of Madrid (UPM, 2024). Her research focuses on techniques that provide guarantees on robot behavior through introspection and adaptation.
 

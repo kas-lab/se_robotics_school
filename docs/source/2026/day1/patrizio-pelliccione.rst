@@ -1,5 +1,5 @@
 ********************************************
-**Keynote:** Democratizing the use of robots
+Democratizing the use of robots
 ********************************************
    *13:30 - 14:30* -- Patrizio Pelliccione
 
@@ -14,7 +14,9 @@ Specifically, I will describe our solutions to enable the specification of compl
 I will close the talk with a view of future research and development directions.
 
 **Session materials:**
- - :download:`Slides: Democratizing the programming and use of Robots <slides/Keynote_DemocratizationRobots_PPelliccione.pdf>`
+
+.. TODO: Add slides once received.
+   - :download:`Slides: Democratizing the programming and use of Robots <slides/Keynote_DemocratizationRobots_PPelliccione.pdf>`
 
 **Bio. Patrizio Pelliccione** is a Professor in Computer Science at Gran Sasso Science Institute (GSSI, Italy).
 Patrizio is also adjunct professor at the University of Bergen in Norway.

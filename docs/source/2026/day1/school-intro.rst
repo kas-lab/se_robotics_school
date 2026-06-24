@@ -9,7 +9,9 @@ Introduction to the school
 WIP
 
 **Session materials:**
- - :download:`(WIP)Slides: Introduction to the school <slides/IntroductionSchool_CHernandez.pdf>`
+
+.. TODO: Add slides once received.
+   - :download:`Slides: Introduction to the school <slides/IntroductionSchool_CHernandez.pdf>`
 
 **Bio. Carlos Hernandez Corbato** is Associate Professor at the Cognitive Robotics Department in the Faculty Mechanical Engineering of TU Delft, The Netherlands.
 He participates in the EU projects CoreSense, METATOOL, and REMARO, has served as scientific coordinator in other EU projects, and won with Team Delft the Amazon Robotics Challenge 2016.
