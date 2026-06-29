@@ -32,3 +32,21 @@ Relevant References
 - Hochgeschwender, N., et al. "Replicable Simulation-Based Robot Validation through Provenance." *ERAS 2026*.
 - Pasch, F., Mirus, F., Zhang, Y., and Scholl, K.-U. "Scenario Execution for Robotics: A Generic, Backend-Agnostic Library for Running Reproducible Robotics Experiments and Tests." *CASE 2024*.
 - Afzal, A., et al. "Testing, Validation, and Verification of Robotic and Autonomous Systems: A Systematic Review." *ACM Computing Surveys*, 2022.
+
+
+   *11:00 - 12:30* -- Nico Hochgeschwender
+
+**Tutorial description:**
+This session builds on the morning lecture by examining the design decisions and scientific foundations behind modern scenario-based robot validation in greater depth.
+The first part focuses on domain-specific languages for scenario specification — including FloorPlan DSLs, variation descriptions, and composable executable scenarios — and explores how these languages make test specification more systematic, reusable, and aligned with how robot developers think about their systems.
+
+The second part introduces RoboVAST-style representations for organizing full robot validation campaigns, covering variability, executable scenarios, test environments, execution traces, evaluation results, and provenance.
+A central theme across both parts is that validation campaigns must themselves be reproducible, inspectable, and reusable.
+
+Students are also encouraged to explore the RoboVAST framework hands-on at their own pace using the step-by-step tutorial below.
+
+.. toctree::
+   :caption: Session materials
+   :maxdepth: 2
+
+   robovast-tutorial

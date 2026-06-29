@@ -18,9 +18,9 @@ This perspective aligns closely with the goals of the CoreSense project, which a
 The talk will highlight ongoing research efforts that support the vision of building autonomous systems that are resilient, transparent, and trustworthy.
 
 **Session materials:**
+Keynote slides and tutorial materials are available on GitHub:
+ - :GitHub:`estherag/intro_cognitive_architectures` (:GitHub:`Period accurate <fjrodl/PDDL-course/tree/6f9ab1497ed97447ee7722884187c808d17ebbbf>`)
 
-.. TODO: Add slides once received.
-   - :download:`Slides: Cognitive Architectures for Robust and Reliable Robotics <slides/Keynote_CognitiveArchitectures_EAguado.pdf>`
 
 **Bio. Esther Aguado** holds a PhD in Automation and Robotics from the Polytechnic University of Madrid (UPM, 2024). Her research focuses on techniques that provide guarantees on robot behavior through introspection and adaptation.
 
@@ -30,3 +30,10 @@ Electronics and Automation. He completed his training with a Master's degree in 
 Her thesis, "SysSelf: Systems that know what they are doing," awarded Outstanding Cum Laude with International Mention, establishes a framework for autonomous systems to regulate their own control processes in real time. 
 
 She has published in JCR journals, participated in national and international conferences, and is a co-inventor of a patent. She was a visiting researcher at TU Delft (Netherlands) in 2022 and 2024. She is currently an Assistant Professor at the Rey Juan Carlos University, where she teaches Telematics Engineering and Robotics, and continues her research work on intelligent systems with behavioral guarantees.
+
+   *14:00 - 15:00 / 15:30 - 17:00* -- Esther Aguado, Carlos Hernandez Corbato
+
+.. TODO: write tutorial description.
+
+**Tutorial description:**
+Tutorial description to be written.
