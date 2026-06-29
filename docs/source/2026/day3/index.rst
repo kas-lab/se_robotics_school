@@ -2,12 +2,17 @@
 Day 3 -- July 1st: Testing, Validation and Cognitive Architectures
 ============================================================================
 
-Sessions
---------
+.. toctree::
+   :maxdepth: 2
+   :caption: Validation & Testing
+
+   validation-testing-lecture
+   validation-testing-tutorial
 
 .. toctree::
    :maxdepth: 2
+   :caption: Cognitive Architectures
 
-   validation-testing-lecture
    cognitive-architectures-keynote
+   cognitive-architectures-tutorial
 

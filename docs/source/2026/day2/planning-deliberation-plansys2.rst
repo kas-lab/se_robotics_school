@@ -13,7 +13,6 @@ The session concludes with a discussion of debugging techniques and integration 
 .. |PDDL| replace:: :abbr:`PDDL (Planning Domain Definition Language)`
 
 **Session materials:**
- - :download:`Slides: Planning and Deliberation with PlanSys2 <slides/plansys2.pdf>`
  - :GitHub:`fjrodl/PDDL-course/tree/2026_dev`
 
 **Bio Francisco J. Rodríguez** received his Ph.D. degree in intelligent systems for engineering in 2015 from the School of Industrial Engineering and Information Technology at University of León (Spain).

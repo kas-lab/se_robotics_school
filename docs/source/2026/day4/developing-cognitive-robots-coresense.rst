@@ -6,7 +6,7 @@ Developing Cognitive Robots with CoreSense
 .. TODO: Write lecture description.
 
 **Lecture description:**
-Lecture description to be written.
+
 
 **Bio. Ricardo Sanz**  is Professor of Automatic Control and Systems Engineering at the Technical University of Madrid (Universidad Politécnica de Madrid, UPM), where he has been a faculty member since 1991 and has coordinated the Autonomous Systems Laboratory (ASLab) since 2004.
 

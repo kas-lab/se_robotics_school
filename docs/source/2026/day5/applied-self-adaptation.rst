@@ -3,6 +3,8 @@ Self-adaptation Applied with Behavior Trees
 *******************************************
    *15:30 - 17:00* -- Elvin Alberts
 
+.. TODO: Write session time, description and update Elvin's bio
+
 **Bio. Elvin Alberts** is a Ph.D. Candidate affiliated with both the Software and Sustainability research group of the Computer Science department at the Vrije Universiteit Amsterdam as well as the Knowledge-based Autonomous Systems Laboratory of the Cognitive Robotics department at the Technical University of Delft.
 He received a M.Sc. in Software Engineering at the University of Amsterdam and a B.Sc. in Computer Science at the Vrije Universiteit Amsterdam.
 His research focuses on the development and integration of self-adaptive capabilities for robotics software.
