@@ -3,8 +3,6 @@ Democratizing the use of robots
 ********************************************
    *13:30 - 14:30* -- Patrizio Pelliccione
 
-.. TODO: Update keynote description once received.
-
 **Keynote abstract:**
 Autonomous systems and robots promise to facilitate a myriad of tasks of everyday life.
 Software engineering is called to play a key role in making robotic research pervasive and ubiquitous and in democratizing the use of robots in everyday-life scenarios.

@@ -8,7 +8,6 @@ This session motivates deliberative planning in autonomous robotics by contrasti
 It then introduces the principles of automated planning and the syntax of :abbr:`PDDL (Planning Domain Definition Language)` — covering domains, problems, predicates, actions, durative actions, and planning pipelines — illustrated with practical modelling examples from service robotics.
 
 **Session materials:**
- - :download:`Slides: Planning and Deliberation with PDDL <slides/PDDL-Session.pdf>`
  - :GitHub:`fjrodl/PDDL-course/tree/2026_dev`
 
 **Bio Francisco J. Rodríguez** received his Ph.D. degree in intelligent systems for engineering in 2015 from the School of Industrial Engineering and Information Technology at University of León (Spain).

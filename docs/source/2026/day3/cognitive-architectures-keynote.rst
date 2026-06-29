@@ -1,9 +1,7 @@
 ***********************************************************************
-Cognitive Architectures for Robust and Reliable Robotics
+**Keynote:** Cognitive Architectures for Robust and Reliable Robotics
 ***********************************************************************
    *13:15 - 14:00* -- Esther Aguado
-
-.. TODO: Update keynote description once received.
 
 **Keynote abstract:**
 In this keynote, I will introduce the field of cognitive architectures: control frameworks that allow robots to reason, plan, and make decisions in intelligent and flexible ways.
@@ -18,9 +16,7 @@ This perspective aligns closely with the goals of the CoreSense project, which a
 The talk will highlight ongoing research efforts that support the vision of building autonomous systems that are resilient, transparent, and trustworthy.
 
 **Session materials:**
-Keynote slides and tutorial materials are available on GitHub:
- - :GitHub:`estherag/intro_cognitive_architectures` (:GitHub:`Period accurate <fjrodl/PDDL-course/tree/6f9ab1497ed97447ee7722884187c808d17ebbbf>`)
-
+ - :GitHub:`estherag/intro_cognitive_architectures`
 
 **Bio. Esther Aguado** holds a PhD in Automation and Robotics from the Polytechnic University of Madrid (UPM, 2024). Her research focuses on techniques that provide guarantees on robot behavior through introspection and adaptation.
 
@@ -31,9 +27,12 @@ Her thesis, "SysSelf: Systems that know what they are doing," awarded Outstandin
 
 She has published in JCR journals, participated in national and international conferences, and is a co-inventor of a patent. She was a visiting researcher at TU Delft (Netherlands) in 2022 and 2024. She is currently an Assistant Professor at the Rey Juan Carlos University, where she teaches Telematics Engineering and Robotics, and continues her research work on intelligent systems with behavioral guarantees.
 
-   *14:00 - 15:00 / 15:30 - 17:00* -- Esther Aguado, Carlos Hernandez Corbato
-
-.. TODO: write tutorial description.
-
-**Tutorial description:**
-Tutorial description to be written.
+Relevant References
+===================
+- Langley, P., Laird, J. E., & Rogers, S. (2009). Cognitive architectures: Research issues and challenges. *Cognitive Systems Research*, 10(2), 141–160.
+- Ingrand, F., & Ghallab, M. (2017). Deliberation for autonomous robots: A survey. *Artificial Intelligence*, 247, 10–44.
+- Vernon, D., Metta, G., & Sandini, G. (2007). A survey of artificial cognitive systems. *IEEE Transactions on Evolutionary Computation*, 11(2), 151–180.
+- Lieto, A., Bhatt, M., Oltramari, A., & Vernon, D. (2018). The role of cognitive architectures in general artificial intelligence. *Cognitive Systems Research*, 48, 1–3.
+- Kotseruba, I., & Tsotsos, J. K. (2020). 40 years of cognitive architectures: core cognitive abilities and practical applications. *Artificial Intelligence Review*, 53, 17–94.
+- Vernon, D. (2014). *Artificial cognitive systems: A primer*. MIT Press.
+- Cangelosi, A., & Asada, M. (Eds.). (2022). *Cognitive robotics*. MIT Press.
