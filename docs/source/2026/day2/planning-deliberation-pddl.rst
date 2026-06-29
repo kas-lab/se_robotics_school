@@ -3,16 +3,13 @@ Planning and Deliberation with PDDL
 ****************************************
    *13:00 - 14:00* -- Francisco Javier Rodriguez Lera
 
-.. TODO: Update session description and materials
-
 **Lecture description:**
-An introduction to :abbr:`PDDL (Planning Domain Definition Language)`, the standard language for defining domains and problems in automated planning.
-The session will cover the core concepts, syntax, and structure of the language, along with basic examples to illustrate how actions, states, and goals are modelled in a plannable environment.
+This session motivates deliberative planning in autonomous robotics by contrasting it with reactive control.
+It then introduces the principles of automated planning and the syntax of :abbr:`PDDL (Planning Domain Definition Language)` — covering domains, problems, predicates, actions, durative actions, and planning pipelines — illustrated with practical modelling examples from service robotics.
 
 **Session materials:**
-
-.. TODO: Add slides once received.
-   - :download:`Slides: Cognitive Architectures, Task Planning and PDDL <slides/PDDL-Theoretical_Session_FJRodriguez.pdf>`
+ - :download:`Slides: Planning and Deliberation with PDDL <slides/PDDL-Session.pdf>`
+ - :GitHub:`fjrodl/PDDL-course/tree/2026_dev`
 
 **Bio Francisco J. Rodríguez** received his Ph.D. degree in intelligent systems for engineering in 2015 from the School of Industrial Engineering and Information Technology at University of León (Spain).
 Currently, he is working as a researcher in the University of León (Spain) after to stay two years as a research associate in the AI Robolab, which belongs to the Computer Science and Communications Research Unit (CSC) at University of Luxembourg.

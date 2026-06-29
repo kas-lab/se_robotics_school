@@ -5,16 +5,16 @@ Planning and Deliberation with PlanSys2
 
 
 **Session description:**
-A practical session focused on the use of |PDDL| in robotics.
-Real-world and simulated examples will be explored to show how robots can leverage planning with |PDDL| to perform complex tasks, integrating actions, and autonomous decision-making.
-The session will also introduce PlanSys2, a ROS 2 framework for planning and execution, showcasing how it uses |PDDL| to enable goal-oriented behavior in robotic systems.
+This practical session introduces PlanSys2, a ROS 2 framework for automated planning and execution.
+After an overview of its architecture — Domain Expert, Problem Expert, Planner, Executor, and Action Performers — students first validate and run a |PDDL| problem with the POPF command-line planner to understand the planning process independently of any middleware.
+They then load the same model into PlanSys2, inspect its components, generate the plan through ROS 2 services, and execute it in simulation using provided Action Performers.
+The session concludes with a discussion of debugging techniques and integration with navigation frameworks.
 
 .. |PDDL| replace:: :abbr:`PDDL (Planning Domain Definition Language)`
 
 **Session materials:**
- - :GitHub:`fjrodl/PDDL-course` (:GitHub:`Period accurate <fjrodl/PDDL-course/tree/6f9ab1497ed97447ee7722884187c808d17ebbbf>`)
- - :GitHub:`GitHub: luispri2001/ros2_planning_system_examples @ humble <luispri2001/ros2_planning_system_examples/tree/humble/plansys2_bt_example>`
-
+ - :download:`Slides: Planning and Deliberation with PlanSys2 <slides/plansys2.pdf>`
+ - :GitHub:`fjrodl/PDDL-course/tree/2026_dev`
 
 **Bio Francisco J. Rodríguez** received his Ph.D. degree in intelligent systems for engineering in 2015 from the School of Industrial Engineering and Information Technology at University of León (Spain).
 Currently, he is working as a researcher in the University of León (Spain) after to stay two years as a research associate in the AI Robolab, which belongs to the Computer Science and Communications Research Unit (CSC) at University of Luxembourg.

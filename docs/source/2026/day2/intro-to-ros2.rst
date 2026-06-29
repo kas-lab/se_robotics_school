@@ -3,17 +3,13 @@ Intro to ROS 2
 ****************************************
    *09:00 - 10:30 / 11:00 - 12:00* -- Jose Miguel Guerrero, Francisco Martin Rico
 
-.. TODO: Adjust course description, does it really involve hands-on activities?
-
 **Lecture description:**
 This course introduces students to the fundamentals of ROS 2, including its architecture and core communication concepts.
 Through hands-on activities, students will develop a ROS 2-based perception-decision-action loop that enables robots to detect obstacles and respond autonomously.
 The course emphasizes practical experience in building autonomous robotic behaviors using modern, modular software tools.
 
 **Session materials:**
-
-.. TODO: Add slides once received.
-   - :download:`Slides: Intro to ROS 2 & Robot Programmimg <slides/ros2_introduction_JMGuerrero.pdf>`
+ - :download:`Slides: Intro to ROS 2 & Robot Programming <slides/ros2_basics_SSER_Summer.pdf>`
 
 Preparation
 ===========
@@ -21,7 +17,7 @@ Preparation
 
 Please, carefully follow the steps outlined in the repository ahead of the practical session to ensure everything runs smoothly and we make the most of the available time:
 
-   :GitHub:`IntelligentRoboticsLabs/docker_infrastructure` (:GitHub:`Period accurate <IntelligentRoboticsLabs/docker_infrastructure/tree/c200f5a526376cdae607260f4cd65e9dba4f3590>`)
+   :GitHub:`IntelligentRoboticsLabs/docker_infrastructure`
 
 
 **Bio. José Miguel Guerrero Hernández** earned his Bachelor's Degree, Master's Degree, and Doctorate in Computer Science from the Universidad Complutense de Madrid (UCM) in 2008, 2010, and 2015, respectively.
