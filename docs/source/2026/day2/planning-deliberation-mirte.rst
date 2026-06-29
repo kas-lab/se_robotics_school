@@ -3,6 +3,7 @@ Planning and Deliberation on the MIRTE
 ****************************************
    *15:45 - 17:00* -- Carlos Hernandez Corbato, using material from Gustavo Rezende
 
+**Session description:**
 A hands-on session where participants will learn how to integrate PDDL-based planning with the MIRTE educational robot.
 The workshop will guide attendees through the complete setup process, from defining planning problems to executing plans on the robot, enabling a deeper understanding of how symbolic planning can drive autonomous behavior in real-world robotic platforms.
 

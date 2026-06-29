@@ -1,7 +1,9 @@
 ********************************************
-**Keynote:** (NEEDS UPDATE) Democratizing the use of robots
+Democratizing the use of robots
 ********************************************
    *13:30 - 14:30* -- Patrizio Pelliccione
+
+.. TODO: Update keynote description once received.
 
 **Keynote abstract:**
 Autonomous systems and robots promise to facilitate a myriad of tasks of everyday life.
@@ -11,7 +13,12 @@ In this talk, I will describe our experience in making robots accessible to peop
 Specifically, I will describe our solutions to enable the specification of complex missions for multi-robots in a user-friendly but still accurate and unambiguous way.
 I will close the talk with a view of future research and development directions.
 
-**Patrizio Pelliccione** is a Professor in Computer Science at Gran Sasso Science Institute (GSSI, Italy).
+**Session materials:**
+
+.. TODO: Add slides once received.
+   - :download:`Slides: Democratizing the programming and use of Robots <slides/Keynote_DemocratizationRobots_PPelliccione.pdf>`
+
+**Bio. Patrizio Pelliccione** is a Professor in Computer Science at Gran Sasso Science Institute (GSSI, Italy).
 Patrizio is also adjunct professor at the University of Bergen in Norway.
 His research topics are mainly in software engineering, software architecture modeling and verification, autonomous systems, and formal methods.
 He received his PhD in computer science from the University of L'Aquila (Italy).
@@ -20,6 +27,3 @@ He has been on the organization and program committees for several top conferenc
 He is very active in European and National projects.
 In his research activity, he has collaborated with several companies.
 More information is available at http://patriziopelliccione.com.
-
-Session materials:
- - :download:`Slides: Democratizing the programming and use of Robots <slides/Keynote_DemocratizationRobots_PPelliccione.pdf>`

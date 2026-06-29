@@ -1,5 +1,5 @@
 ============================================================
-Day 2 -- June 30th: Programming and Deliberation for Robots
+Day 2 -- June 30th: Programming and Planning for Robots
 ============================================================
 
 Lectures

@@ -3,6 +3,32 @@ Validation & Testing in Robotics
 ****************************************
    *09:00 - 10:30* -- Nico Hochgeschwender
 
-.. admonition:: Remove Me
+.. TODO: Add slides once received.
 
-   Lecture description to be written.
+**Lecture description:**
+This lecture introduces the conceptual and methodological foundations of testing, validation, and evaluation for cognitive robotic systems.
+The first part establishes the key distinctions between these three activities: testing asks whether a system behaves as expected under selected conditions; validation asks whether the right system is being built for the intended use context; and evaluation assesses performance or quality against explicit criteria.
+From there, the lecture explores the specific challenges that make validating cognitive robots hard — including open-ended environments, semantic variability, embodiment-specific behavior, the sim-to-real gap, and the difficulty of defining adequate test oracles.
+
+The second part introduces scenario-based validation as a principled way to organize test campaigns around explicit descriptions of environments, tasks, agents, assumptions, and expected outcomes.
+Following that, the lecture presents the executable scenario framework and explains how scenario models can be transformed into simulation artefacts, test executions, traces, and evaluation results.
+
+**Bio. Nico Hochgeschwender** is Professor of Software Engineering for Cognitive Robots and Systems at the University of Bremen, Germany.
+His research focuses on cognitive robotics, robot software engineering, and the automated validation and testing of robotic systems.
+
+His work aims to enable robots that can learn, collaborate effectively with humans, and make autonomous decisions in complex environments. 
+To achieve this, he develops methods and tools for the engineering of reliable, long-lived robotic systems whose behavior remains understandable and trustworthy to human users.
+A particular focus of his current research is the automated evaluation of robot behavior and digital twins, with the long-term goal of enabling cognitive robots to assess and reason about their own performance.
+
+Nico received his Ph.D. from the University of Luxembourg in 2017 for his work on model-based software development in robotics.
+He subsequently led a research group at the German Aerospace Center (DLR) before being appointed Professor at Hochschule Bonn-Rhein-Sieg in 2019.
+Since 2023, he has held the Chair of Software Engineering for Cognitive Robots and Systems at the University of Bremen.
+
+Relevant References
+====================
+- Nordmann, A., Hochgeschwender, N., Wrede, S., et al. "A Survey on Domain-specific Modeling and Languages in Robotics."
+- Parra, S., Ortega, A., Hochgeschwender, N., et al. "Composable and Executable Scenarios for Simulation-Based Testing of Mobile Robots." *Frontiers in Robotics and AI*, 2024.
+- Nguyen, M., Wrede, S., and Hochgeschwender, N. "Automated Behaviour-Driven Acceptance Testing of Robotic Systems." *IROS 2025*.
+- Hochgeschwender, N., et al. "Replicable Simulation-Based Robot Validation through Provenance." *ERAS 2026*.
+- Pasch, F., Mirus, F., Zhang, Y., and Scholl, K.-U. "Scenario Execution for Robotics: A Generic, Backend-Agnostic Library for Running Reproducible Robotics Experiments and Tests." *CASE 2024*.
+- Afzal, A., et al. "Testing, Validation, and Verification of Robotic and Autonomous Systems: A Systematic Review." *ACM Computing Surveys*, 2022.

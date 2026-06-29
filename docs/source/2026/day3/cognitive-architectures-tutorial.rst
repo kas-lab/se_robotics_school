@@ -3,6 +3,7 @@ Cognitive Architectures for Robust and Reliable Robotics
 **************************************************************
    *14:00 - 15:00 / 15:30 - 17:00* -- Esther Aguado, Carlos Hernandez Corbato
 
-.. admonition:: Remove Me
+.. TODO: write tutorial description.
 
-   Tutorial description to be written.
+**Tutorial description:**
+Tutorial description to be written.
