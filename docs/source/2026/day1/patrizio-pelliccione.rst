@@ -12,9 +12,7 @@ Specifically, I will describe our solutions to enable the specification of compl
 I will close the talk with a view of future research and development directions.
 
 **Session materials:**
-
-.. TODO: Add slides once received.
-   - :download:`Slides: Democratizing the programming and use of Robots <slides/Keynote_DemocratizationRobots_PPelliccione.pdf>`
+- :download:`Slides: Democratizing the Programming and Use of Robots <slides/DemocratizationRobots2026.pdf>`
 
 **Bio. Patrizio Pelliccione** is a Professor in Computer Science at Gran Sasso Science Institute (GSSI, Italy).
 Patrizio is also adjunct professor at the University of Bergen in Norway.
