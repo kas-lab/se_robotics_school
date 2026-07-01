@@ -18,6 +18,9 @@ Students are also encouraged to explore the RoboVAST framework hands-on at their
 
    robovast-tutorial
 
+- :download:`RoboVAST Examples <material/RoboVAST_Examples.zip>`
+
+
 **Bio. Nico Hochgeschwender** is Professor of Software Engineering for Cognitive Robots and Systems at the University of Bremen, Germany.
 His research focuses on cognitive robotics, robot software engineering, and the automated validation and testing of robotic systems.
 
