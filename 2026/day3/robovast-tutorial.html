@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboVAST Tutorial &mdash; ACM SIGSOFT Summer School for Software Engineering in Robotics</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=8dde47fa"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Keynote: Cognitive Architectures for Robust and Reliable Robotics" href="cognitive-architectures-keynote.html" />
+    <link rel="prev" title="Tutorial: Validation &amp; Testing in Robotics" href="validation-testing-tutorial.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ACM SIGSOFT Summer School for Software Engineering in Robotics
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">SE-Robotics Summer Schools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contact.html">Contact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Editions:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../2025/index.html">SE-Robotics Summer School 2025</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">SE-Robotics Summer School 2026</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../day1/index.html">Day 1 – June 29th: Robots in Society</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../day2/index.html">Day 2 – June 30th: Programming and Planning for Robots</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Day 3 – July 1st: Testing, Validation and Cognitive Architectures</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="validation-testing-lecture.html"><strong>Lecture:</strong> Validation &amp; Testing in Robotics</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="validation-testing-tutorial.html"><strong>Tutorial:</strong> Validation &amp; Testing in Robotics</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">RoboVAST Tutorial</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#installing-robovast">Installing RoboVAST</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#download-the-example-files">Download the Example Files</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#running-a-validation-campaign">Running a Validation Campaign</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="#initialize-the-vast-file">Initialize the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="#launch-the-configuration-gui">Launch the configuration GUI</a></li>
+<li class="toctree-l6"><a class="reference internal" href="#modify-the-vast-file">Modify the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file</a></li>
+<li class="toctree-l6"><a class="reference internal" href="#execute-the-vast-file-locally">Execute the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file locally</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="#viewing-results">Viewing Results</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cognitive-architectures-keynote.html"><strong>Keynote:</strong> Cognitive Architectures for Robust and Reliable Robotics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cognitive-architectures-tutorial.html"><strong>Tutorial:</strong> Cognitive Architectures for Robust and Reliable Robotics</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../day4/index.html">Day 4 – July 2nd: Cognitive Robots and Systems Engineering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../day5/index.html">Day 5 – July 3rd: Hands-On</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ACM SIGSOFT Summer School for Software Engineering in Robotics</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Summer School for Systems and Software Engineering in Robotics 2026</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Day 3 – July 1st: Testing, Validation and Cognitive Architectures</a></li>
+          <li class="breadcrumb-item"><a href="validation-testing-tutorial.html"><strong>Tutorial:</strong> Validation &amp; Testing in Robotics</a></li>
+      <li class="breadcrumb-item active">RoboVAST Tutorial</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2026/day3/robovast-tutorial.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="robovast-tutorial">
+<h1>RoboVAST Tutorial<a class="headerlink" href="#robovast-tutorial" title="Link to this heading"></a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This tutorial covers the navigation plugin only. The metamorphic testing and FAIR metadata plugins are not covered here.</p>
+</div>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Docker</p></li>
+<li><p>Python 3.12</p></li>
+<li><p>Ubuntu 24.04 (recommended; Windows also supported)</p></li>
+</ul>
+</section>
+<section id="installing-robovast">
+<h2>Installing RoboVAST<a class="headerlink" href="#installing-robovast" title="Link to this heading"></a></h2>
+<p>Set up a virtual environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3-venv
+python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+.<span class="w"> </span>venv/bin/activate
+</pre></div>
+</div>
+<p>Clone the repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cps-test-lab/robovast.git
+<span class="nb">cd</span><span class="w"> </span>robovast
+</pre></div>
+</div>
+<p>Install RoboVAST and the navigation extension:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>src/robovast_nav
+</pre></div>
+</div>
+<p>Verify the installation and optionally enable shell completion:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vast<span class="w"> </span>--help
+
+<span class="c1"># enable shell completions</span>
+vast<span class="w"> </span>install-completion
+<span class="nb">source</span><span class="w"> </span>~/.bashrc<span class="w">  </span><span class="c1"># or source the appropriate file for your shell</span>
+</pre></div>
+</div>
+<p>Pull the Docker image:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>pull<span class="w"> </span>ghcr.io/cps-test-lab/robovast:latest
+</pre></div>
+</div>
+</section>
+<section id="download-the-example-files">
+<h2>Download the Example Files<a class="headerlink" href="#download-the-example-files" title="Link to this heading"></a></h2>
+<p>Download the example <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file, scenario file, and environment/setup files.
+The expected folder structure is:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>.
+└── RoboVAST Examples
+    ├── analysis/
+    ├── environments/
+    │   ├── hbrs_c/
+    │   ├── hexagon/
+    │   ├── hexagon_large/
+    │   ├── hexagon_offset/
+    │   └── secorolab/
+    ├── files/
+    ├── examples.vast       # example vast file
+    ├── scenario.osc        # example multi-goal scenario file
+    └── variations.yaml     # examples of different variation configurations
+</pre></div>
+</div>
+</section>
+<section id="running-a-validation-campaign">
+<h2>Running a Validation Campaign<a class="headerlink" href="#running-a-validation-campaign" title="Link to this heading"></a></h2>
+<section id="initialize-the-vast-file">
+<h3>Initialize the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file<a class="headerlink" href="#initialize-the-vast-file" title="Link to this heading"></a></h3>
+<p>Make sure you are inside the <code class="docutils literal notranslate"><span class="pre">RoboVAST</span> <span class="pre">Examples</span></code> folder, then run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vast<span class="w"> </span>init<span class="w"> </span>examples.vast
+</pre></div>
+</div>
+</section>
+<section id="launch-the-configuration-gui">
+<h3>Launch the configuration GUI<a class="headerlink" href="#launch-the-configuration-gui" title="Link to this heading"></a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vast<span class="w"> </span>config<span class="w"> </span>gui
+</pre></div>
+</div>
+</section>
+<section id="modify-the-vast-file">
+<h3>Modify the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file<a class="headerlink" href="#modify-the-vast-file" title="Link to this heading"></a></h3>
+<p>You only need to change the <strong>configuration section</strong>: modifying, adding, and removing configurations.</p>
+<ul class="simple">
+<li><p>Refer to <code class="docutils literal notranslate"><span class="pre">variations.yaml</span></code> for different possible configurations and variation types.</p></li>
+<li><p>If you change the maps, keep in mind that the path length and number of goal poses may need to be adjusted so that viable paths can be found (long paths with few goals cannot be generated for small maps; the same applies when many obstacles are present).</p></li>
+<li><p>View the generated test cases by pressing the <strong>Generate</strong> button.</p></li>
+<li><p>Once finished, save the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file.</p></li>
+</ul>
+</section>
+<section id="execute-the-vast-file-locally">
+<h3>Execute the <code class="docutils literal notranslate"><span class="pre">.vast</span></code> file locally<a class="headerlink" href="#execute-the-vast-file-locally" title="Link to this heading"></a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vast<span class="w"> </span><span class="nb">exec</span><span class="w"> </span><span class="nb">local</span><span class="w"> </span>run
+</pre></div>
+</div>
+</section>
+</section>
+<section id="viewing-results">
+<h2>Viewing Results<a class="headerlink" href="#viewing-results" title="Link to this heading"></a></h2>
+<p>Once the tests have finished running, post-process and visualize the results:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vast<span class="w"> </span>results<span class="w"> </span>postprocess
+vast<span class="w"> </span>analysis<span class="w"> </span>gui
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="validation-testing-tutorial.html" class="btn btn-neutral float-left" title="Tutorial: Validation &amp; Testing in Robotics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cognitive-architectures-keynote.html" class="btn btn-neutral float-right" title="Keynote: Cognitive Architectures for Robust and Reliable Robotics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, KAS Lab, TU Delft.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
