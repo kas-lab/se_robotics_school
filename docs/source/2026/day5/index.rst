@@ -5,6 +5,6 @@ Day 5 -- July 3rd: Hands-On
 .. toctree::
    :includehidden:
    :maxdepth: 2
-   :caption: Self-Adaptation
+   :caption: Apply your knowledge!
 
-   applied-self-adaptation
+   hands-on_challenge
