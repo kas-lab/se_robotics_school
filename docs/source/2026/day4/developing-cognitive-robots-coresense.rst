@@ -3,10 +3,16 @@ Developing Cognitive Robots with CoreSense
 ********************************************
    *09:00 - 10:30* -- Ricardo Sanz, Ruth Medeiros Gonzalez
 
-.. TODO: Write lecture description.
 
 **Lecture description:**
+After learning about many robotics software technologies in the previous sessions, this lecture will address scaling up these assets to complex robotic controllers using a systems engineering approach.
+Specifically, this lecture will discuss this process in the context of the CoreSense project, which researches better methods, designs, and assets following an architecture-centric approach.
 
+Starting with a motivation for robotic understanding, the lecture continues by introducing CoreSense's foundation in models rather than data as the basis of cognition.
+It then presents concepts and principles at the core of the CoreSense approach, and how a Model-Based Autonomous Systems Engineering methodology is applied to the development of the CoreSense mission architecture.
+
+**Session materials:**
+- :download:`Slides: Developing Cognitive Robots with CoreSense <slides/CoreSense-MAG.pdf>`
 
 **Bio. Ricardo Sanz**  is Professor of Automatic Control and Systems Engineering at the Technical University of Madrid (Universidad Politécnica de Madrid, UPM), where he has been a faculty member since 1991 and has coordinated the Autonomous Systems Laboratory (ASLab) since 2004.
 

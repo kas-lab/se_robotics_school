@@ -8,9 +8,8 @@ In this tutorial session, we will learn to use SE and MBSE practices to design t
 We will work together on obtaining the functional flow of a robotic system, given a description of its operational scenario and an N-square chart of its functional interfaces.
 
 **Session materials:**
-
-.. TODO: Add slides once received.
-   - :download:`Slides: Model-Based Systems Engineering Tutorial <slides/MBSE_Tutorial_CHernandez.pdf>`
+   - :download:`Slides: Model-Based Systems Engineering Tutorial <slides/20260702 SSER MBSE Tutorial.pdf>`
+   - :download:`Task Instructions: Model-Based Systems Engineering Tutorial <slides/20260702 SSER MBSE Tutorial Instructions.pdf>`
 
 **Bio. Carlos Hernandez Corbato** is Associate Professor at the Cognitive Robotics Department in the Faculty Mechanical Engineering of TU Delft, The Netherlands.
 He participates in the EU projects CoreSense, METATOOL, and REMARO, has served as scientific coordinator in other EU projects, and won with Team Delft the Amazon Robotics Challenge 2016.
